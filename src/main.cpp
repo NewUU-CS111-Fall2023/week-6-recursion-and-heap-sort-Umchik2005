@@ -9,9 +9,23 @@
 
 int main() {
     std::cout << "Task 1" << std::endl;
+    int a, b;
+
+    std::cin >> a;
+    std::cin >> b;
+
+    if (a < b) {
+        ascendingOrder(a, b);
+    } else {
+        descendingOrder(a, b);
+    }
+    std::cout << std::endl;
+    std::cout << "/////////////////////////////////////" << std::endl;
     // call for task 1
     std::cout << "Task 2" << std::endl;
     // call for task 2
+
+    
     std::cout << "Task 3" << std::endl;
     // call for task 3
     std::cout << "Task 4" << std::endl;
