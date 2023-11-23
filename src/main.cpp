@@ -110,5 +110,25 @@ int main() {
     std::cout << multiply(number1, number2) << std::endl;
 
     std::cout << "/////////////////////////////////////" << std::endl;
+
+    std::cout << "Task 9" << std::endl;
+
+    Heap heap;
+
+    heap.insertNumbers(25);
+    heap.insertNumbers(17);
+    heap.insertNumbers(36);
+    heap.insertNumbers(2);
+    heap.insertNumbers(8);
+    heap.insertNumbers(19);
+    heap.insertNumbers(1);
+
+    heap.heapsort();
+
+
+    heap.printHeapElemnts();
+
+    std::cout << "/////////////////////////////////////" << std::endl;
+
     return 0;
 }
