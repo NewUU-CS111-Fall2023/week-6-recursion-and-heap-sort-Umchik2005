@@ -1,7 +1,7 @@
 /*
- * Author:
- * Date:
- * Name:
+ * Author: Umchik2005
+ * Date: 23.11.2023
+ * Name: Muhammad Umar Toshpo'latov
  */
 
 #include <iostream>
@@ -85,9 +85,7 @@ int main() {
     }
     int secondLargestNumber = secondLargest(numbers, i);
     std::cout << secondLargestNumber << std::endl;
-    return 0;
-
-
+    
     std::cout << "/////////////////////////////////////" << std::endl;
 
     std::cout << "Task 7" << std::endl;
@@ -104,8 +102,8 @@ int main() {
 
     std::string number1, number2;
 
-    std::getline(std::cin, number1);
-    std::getline(std::cin, number2);
+    std::getline(std::cin >> std::ws, number1);
+    std::getline(std::cin >> std::ws, number2);
 
     std::cout << multiply(number1, number2) << std::endl;
 
@@ -130,5 +128,13 @@ int main() {
 
     std::cout << "/////////////////////////////////////" << std::endl;
 
+    std::cout << "Task 10" << std::endl;
+
+    std::string s10;
+    std::cin >> s10;
+
+    std::string afterChanging = sortVowels(s10);
+
+    std::cout << afterChanging << std::endl;
     return 0;
 }
