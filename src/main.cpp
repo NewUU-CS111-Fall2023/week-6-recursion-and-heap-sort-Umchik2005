@@ -9,6 +9,7 @@
 #include "task_2.h"
 #include "task_3.h"
 #include "task_4.h"
+#include "task_5.h"
 
 int main() {
     std::cout << "Task 1" << std::endl;
@@ -59,6 +60,12 @@ int main() {
     std::cout << "/////////////////////////////////////" << std::endl;
 
     std::cout << "Task 5" << std::endl;
+
+    std::string s5;
+    std::cin >> s5;
+
+    std::cout << isPalindrome(s5, 0, s5.length() - 1) << std::endl;
+    std::cout << "/////////////////////////////////////" << std::endl;
     
     return 0;
 }
