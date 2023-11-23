@@ -7,6 +7,7 @@
 #include <iostream>
 #include "task_1.h"
 #include "task_2.h"
+#include "task_3.h"
 
 int main() {
     std::cout << "Task 1" << std::endl;
@@ -38,6 +39,11 @@ int main() {
     
     std::cout << "Task 3" << std::endl;
     
+    int n3;
+    std::cin >> n3;
+    int sum = sumOfDigits(n3);
+    std::cout << sum << std::endl;
+
     std::cout << "Task 4" << std::endl;
     
     std::cout << "Task 5" << std::endl;
