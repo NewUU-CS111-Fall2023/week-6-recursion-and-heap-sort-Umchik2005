@@ -74,7 +74,18 @@ int main() {
 
     std::cout << "Task 6" << std::endl;
 
-
+    int i = 0;
+    int numbers[100];
+    while (true) {
+        std::cin >> numbers[i];
+        if (numbers[i] == 0) {
+            break;
+        }
+        i++;
+    }
+    int secondLargestNumber = secondLargest(numbers, i);
+    std::cout << secondLargestNumber << std::endl;
+    return 0;
 
 
     std::cout << "/////////////////////////////////////" << std::endl;
