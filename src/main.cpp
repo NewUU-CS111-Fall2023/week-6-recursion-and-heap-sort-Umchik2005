@@ -8,6 +8,7 @@
 #include "task_1.h"
 #include "task_2.h"
 #include "task_3.h"
+#include "task_4.h"
 
 int main() {
     std::cout << "Task 1" << std::endl;
@@ -43,9 +44,20 @@ int main() {
     std::cin >> n3;
     int sum = sumOfDigits(n3);
     std::cout << sum << std::endl;
+    std::cout << "/////////////////////////////////////" << std::endl;
 
     std::cout << "Task 4" << std::endl;
     
+    int n4;
+    std::cin >> n4;
+    if(isPrime(n4)){
+        std::cout << "YES";
+    } else {
+        std::cout << "NO";
+    }
+    std::cout << std::endl;
+    std::cout << "/////////////////////////////////////" << std::endl;
+
     std::cout << "Task 5" << std::endl;
     
     return 0;
